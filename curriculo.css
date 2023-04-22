@@ -1,0 +1,59 @@
+body{
+    background-color: #FFE4E1;
+    font-family: helvetica;
+}
+img{
+    position: absolute;
+    top: 50px;
+    left: 260px;
+    z-index: 1;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border: solid #4B0082;
+}
+p{
+    margin-right: 22%;
+    margin-left: 22%;
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+#bah{
+    color: #4B0082;
+    font-size: 20px;
+    text-align: center;
+} 
+#tche{
+    font-size: 27px;
+    font-family: Script MT; 
+    color:black; 
+    text-align: center;
+}
+#tcha{
+    font-size: 25px;
+    font-family: Script MT; 
+    color:black; 
+    margin: 40px;
+}
+table, td, th, caption{
+    border: 4px inset #8B008B;
+    text-align: center;
+}
+table{
+    margin: 40px;
+    margin-left: 23%;
+    margin-right: 20%;
+}
+hr{
+    color: #4B0082;
+}
+#oi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    list-style-position: inside;
+  }
